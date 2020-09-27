@@ -227,7 +227,7 @@ def getButtonClicked(x,y):
         return GREEN
     elif BLUERECT.collidepoint((x,y)):
         return BLUE
-    return None # Explicit is better than implicit - Python koans Tim Peters //import this
+    return None 
 
 if __name__ == '__main__':
     main()
